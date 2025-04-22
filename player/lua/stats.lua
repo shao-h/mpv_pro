@@ -706,7 +706,7 @@ local function add_file(s, print_cache, print_tags)
                          indent=" ", prefix_sep=" ", no_prefix_markup=true})
     end
 
-    local fs = append_property(s, "file-size", {prefix="Size:"})
+    local fs = append_property(s, "file-size", {prefix="Fucking Size:"})
     append_property(s, "file-format", {prefix="Format/Protocol:",
                                        nl=fs and "" or o.nl,
                                        indent=fs and o.prefix_sep .. o.prefix_sep})
