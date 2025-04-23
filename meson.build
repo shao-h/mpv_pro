@@ -109,6 +109,7 @@ sources = files(
     'demux/packet.c',
     'demux/packet_pool.c',
     'demux/timeline.c',
+    'demux/demux_vf.c',
 
     ## Filters
     'filters/f_async_queue.c',
