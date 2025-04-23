@@ -65,6 +65,7 @@ extern const demuxer_desc_t demuxer_desc_rar;
 extern const demuxer_desc_t demuxer_desc_libarchive;
 extern const demuxer_desc_t demuxer_desc_null;
 extern const demuxer_desc_t demuxer_desc_timeline;
+extern const demuxer_desc_t demuxer_desc_hlvf;
 
 static const demuxer_desc_t *const demuxer_list[] = {
     &demuxer_desc_directory,
@@ -82,6 +83,7 @@ static const demuxer_desc_t *const demuxer_list[] = {
     &demuxer_desc_playlist,
     &demuxer_desc_null,
     &demuxer_desc_mpv,
+    &demuxer_desc_hlvf,
     NULL
 };
 
